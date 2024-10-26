@@ -1,15 +1,14 @@
 <script setup>
-import { onMounted } from 'vue';
-
-defineProps({
-    imgSrc: String,
-    title: String,
-    content: String,
-    href: String
+import educate from '@/assets/educate.png';
+const props = defineProps({
+  imgSrc: {
+    type: String,
+    default: educate
+  },
+  title: String,
+  content: String,
+  href: String
 });
-onMounted( ()=>{
-
-} )
 
 </script>
 
