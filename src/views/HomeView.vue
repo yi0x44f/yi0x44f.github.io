@@ -18,7 +18,6 @@
   const MyProgrammingSkills = [
     {skill: 'Python', style: 'text-bg-warning'},
     {skill: 'C/C++', style: 'text-bg-primary'},
-    {skill: 'Node.js', style: 'text-bg-success'}
   ];
   const MyLanguageSkills = [
     {skill: 'English', style: 'text-bg-warning'},
@@ -62,8 +61,8 @@
         <h1 class="fw-bold d-none d-lg-block col display-1">陳 義鏵</h1>
         <p class="fw-semibold lead">
           <span class="d-lg-none">陳義鏵 </span>
-          前端工程師</p>
-        <p>應屆畢業生，希望能夠找到一同激發創意、創造酷東西的工作夥伴們。<br>
+          Web Developer</p>
+        <p>我不寫程式，我是 Stack Overflow 的搬運工。<br>
           
         </p>
       </div>
@@ -137,7 +136,6 @@
         <ul class="list-group list-group-flush">
           <li class="list-group-item">能使用 <span class="badge text-bg-warning">Python</span> 常用套件開發爬蟲程式、機器學習。</li>
           <li class="list-group-item">能使用 <span class="badge text-bg-primary">C/C++</span> 開發 基本 console APP。</li>
-          <li class="list-group-item">能使用 <span class="badge text-bg-success">Node.js</span> 串接 Fugle API 開發程式交易策略。</li>
         </ul>
       </div>
 
