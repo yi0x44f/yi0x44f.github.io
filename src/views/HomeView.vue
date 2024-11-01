@@ -18,6 +18,7 @@
   const MyProgrammingSkills = [
     {skill: 'Python', style: 'text-bg-warning'},
     {skill: 'C/C++', style: 'text-bg-primary'},
+    {skill: 'MySQL', style: 'text-bg-success'}
   ];
   const MyLanguageSkills = [
     {skill: 'English', style: 'text-bg-warning'},
@@ -136,6 +137,7 @@
         <ul class="list-group list-group-flush">
           <li class="list-group-item">能使用 <span class="badge text-bg-warning">Python</span> 常用套件開發爬蟲程式、機器學習。</li>
           <li class="list-group-item">能使用 <span class="badge text-bg-primary">C/C++</span> 開發 基本 console APP。</li>
+          <li class="list-group-item">能輸入基礎 <span class="badge text-bg-success">MySQL</span> 命令 </li>
         </ul>
       </div>
 
