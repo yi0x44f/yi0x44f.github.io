@@ -149,7 +149,7 @@
           </p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><span class="badge text-bg-warning">English</span>  TOEIC 655 scores.</li>
+          <li class="list-group-item"><span class="badge text-bg-warning">English</span>  TOEIC 810 scores.</li>
           <li class="list-group-item">能使用 <span class="badge text-bg-primary">中文</span> 進行流暢溝通、進行簡報。</li>
           <li class="list-group-item">能使用 <span class="badge text-bg-secondary">台語</span> 進行日常對話。</li>
         </ul>
