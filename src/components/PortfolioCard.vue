@@ -1,18 +1,28 @@
 <script setup>
 import educate from '@/assets/educate.png';
+import { onMounted } from 'vue';
+onMounted(() => {
+  const script = document.createElement("script");
+  script.src = "https://buttons.github.io/buttons.js";
+  script.async = true;
+  script.defer = true;
+  document.body.appendChild(script);
+});
 const props = defineProps({
-  imgSrc: {
-    type: String,
-    default: educate
-  },
-  title: String,
-  content: String,
-  href: String
+    imgSrc: {
+      type: String,
+      default: educate
+    },
+    title: String,
+    content: String,
+    href: String,
+    github: String,
 });
 
 </script>
 
 <template>
+  <!-- Place this tag in your head or just before your close body tag. -->
     <div class="col-xl-3 col-md-4 col-sm-6 col-12 mt-5 d-flex justify-content-center portfolio-card" >
         <div class="col-10">
             <div class="card flex-lg-fill  h-100 border border-2 border-black">
@@ -20,11 +30,15 @@ const props = defineProps({
                     <img :src="imgSrc" class="card-img-top border-dark" alt="">
                 </div>
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title fw-bold ">{{ title }}</h5>
+                    <h5 class="card-title fw-bold text-center mt-3">{{ title }}</h5>
                     <hr>
                     <p class="card-text mt-auto py-2">{{ content }}</p>
                     <div class="mt-auto d-flex justify-content-center" >
-                        <a :href="href" class="btn btn-primary fw-semibold" >查看作品</a>
+                        <a :href="href" class="btn btn-primary fw-semibold mx-1" target="_blank">查看作品</a>
+                        <div class="align-items-center justify-content-center d-flex">
+                          <!-- Place this tag where you want the button to render. -->
+                          <a v-if="github" class="github-button mx-1" :href="github" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Follow @buttons on GitHub">Git repo</a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -11,6 +11,7 @@ function disappear(event){
 };
 
 function annoying(event){
+    window.location.href = "#";
     if (activePage.value === '#/'){
         event.target.classList.add('annoying');
         document.getElementById('invisible-dog').classList.remove('d-none');
@@ -41,17 +42,17 @@ function annoying(event){
           <ul class="navbar-nav me-auto mt-2 mt-lg-0 ">
             <li class="nav-item">
               <a class="nav-link" href="#/" :class="activePage==='#/'?'active':''"  :aria-current="activePage==='#/'?'page':''"
-                >Home
+                >主頁
                 <span class="visually-hidden">(current)</span></a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#portfolio" :class="activePage==='#/portfolio'?'active':''"  :aria-current="activePage==='#/portfolio'?'page':''"
-                >Portfolio</a>
+                >作品集</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact" :class="activePage==='#/contact'?'active':''"  :aria-current="activePage==='#/contact'?'page':''"
-                >Contact</a>
+                >聯絡資訊</a>
             </li>
 
           </ul>

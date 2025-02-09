@@ -14,6 +14,7 @@
     {skill: 'Javascript', style: 'text-bg-warning'},
     {skill: 'Vue3', style: 'text-bg-success'},
     {skill: 'Bootstrap', style: 'text-bg-primary'},
+    {skill: 'Tailwind', style: 'text-bg-primary'}
     ];
   const MyProgrammingSkills = [
     {skill: 'Python', style: 'text-bg-warning'},
@@ -120,6 +121,7 @@
             <li class="list-group-item">能根據需求調整 <span class="badge bg-primary">CSS</span> <span class="badge bg-primary">Bootstraps</span> 外觀。 </li>
             <li class="list-group-item">能使用 <span class="badge bg-success">Vue3</span> 撰寫元件，並開發SPA(Single Page Application)。 </li>
             <li class="list-group-item">能利用 <span class="badge bg-primary">Bootstraps</span> 進行響應式(RWD)網頁設計。</li>
+            <li class="list-group-item">能利用 <span class="badge bg-primary">Tailwindcss</span> 設計樣式。</li>
           </ul>
       </div>
 
@@ -129,15 +131,14 @@
 
       <div class="card my-5 p-2">
         <div class="card-body">
-          <h4 class="card-title">其他程式開發經驗</h4>
+          <h4 class="card-title">網站後端/資料庫</h4>
           <p class="card-text">
             <span class="badge me-1" :class="skill.style"  v-for="(skill, idx) in MyProgrammingSkills" :key="idx">{{ skill.skill }}</span>
           </p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">能使用 <span class="badge text-bg-warning">Python</span> 常用套件開發爬蟲程式、機器學習。</li>
-          <li class="list-group-item">能使用 <span class="badge text-bg-primary">C/C++</span> 開發 基本 console APP。</li>
-          <li class="list-group-item">能輸入基礎 <span class="badge text-bg-success">MySQL</span> 命令 </li>
+          <li class="list-group-item">能使用 <span class="badge text-bg-warning">Laravel</span> 開發全端Web app。</li>
+          <li class="list-group-item">了解 <span class="badge text-bg-success">MySQL</span> 指令 </li>
         </ul>
       </div>
 
