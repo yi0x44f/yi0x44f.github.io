@@ -63,7 +63,7 @@
         <p class="fw-semibold lead">
           <span class="d-lg-none">陳義鏵 </span>
           Web Developer</p>
-        <p>我不寫程式，我是 Stack Overflow 的搬運工。<br>
+        <p>應屆畢業生，正在持續精進web開發能力，享受開發樂趣。<br>
           
         </p>
       </div>
