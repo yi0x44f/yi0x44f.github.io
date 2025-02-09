@@ -17,8 +17,8 @@
     {skill: 'Tailwind', style: 'text-bg-primary'}
     ];
   const MyProgrammingSkills = [
-    {skill: 'Python', style: 'text-bg-warning'},
-    {skill: 'C/C++', style: 'text-bg-primary'},
+    {skill: 'php', style: 'text-bg-warning'},
+    {skill: 'Laravel', style: 'text-bg-danger'},
     {skill: 'MySQL', style: 'text-bg-success'}
   ];
   const MyLanguageSkills = [
@@ -117,7 +117,7 @@
           </p>
         </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">能使用 <span class="badge text-bg-warning">Javascript</span> 串接後端API，完成 CRUD。</li>
+            <li class="list-group-item">能使用 <span class="badge text-bg-warning">Javascript</span> 串接後端API，完成CRUD。</li>
             <li class="list-group-item">能根據需求調整 <span class="badge bg-primary">CSS</span> <span class="badge bg-primary">Bootstraps</span> 外觀。 </li>
             <li class="list-group-item">能使用 <span class="badge bg-success">Vue3</span> 撰寫元件，並開發SPA(Single Page Application)。 </li>
             <li class="list-group-item">能利用 <span class="badge bg-primary">Bootstraps</span> 進行響應式(RWD)網頁設計。</li>
@@ -137,7 +137,7 @@
           </p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">能使用 <span class="badge text-bg-warning">Laravel</span> 開發全端Web app。</li>
+          <li class="list-group-item">能使用 <span class="badge text-bg-danger">Laravel</span> 開發全端Web app。</li>
           <li class="list-group-item">了解 <span class="badge text-bg-success">MySQL</span> 指令 </li>
         </ul>
       </div>
