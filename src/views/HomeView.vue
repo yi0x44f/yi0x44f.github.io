@@ -91,7 +91,45 @@
       </span>
       <h2 class="text-center mb-5">Experience</h2>
       <Accordion title="社團活動" :content="MyClub" id="CLUB"></Accordion>
-      <Accordion title="校內工讀" :content="MyJob" id="JOB"></Accordion>
+      <!-- <Accordion title="校內工讀" :content="MyJob" id="JOB"></Accordion> -->
+       <!-- 校內工讀 -->
+       <div class="accordion accordion-flush" >
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    :data-bs-target="'#'+'flush-collapse-'+id"
+                    aria-expanded="true"
+                    :aria-controls="'flush-collapse-'+id"  
+                >
+                    <span class="fs-2">
+                        校內工讀
+                    </span>
+                </button>
+            </h2>
+            <div
+                :id="'flush-collapse-'+id"
+                class="accordion-collapse collapse"
+                
+            >
+                <div class="accordion-body">
+                    <ul>
+                        <li class="fw-bold">
+                          課外活動組 <a class="text-black " href="#portfolio">靜態網頁撰寫</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="fw-bold">
+                          資訊處 宿網網管
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+      </div>
       <Accordion title="競賽" :content="MyCompetition" id="COMPETITION"></Accordion>
 
     </div>
@@ -196,7 +234,16 @@
   }
 
 
-
+  .accordion{
+        --bs-accordion-active-bg: inherit;
+    }
+    .accordion-button:focus{
+        box-shadow: none;       
+    }
+    .accordion-button:not(.collapsed){
+        box-shadow: none;
+        color: inherit;
+    }
 
 
 </style>
