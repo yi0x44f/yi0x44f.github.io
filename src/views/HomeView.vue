@@ -80,8 +80,8 @@
         <img src="../assets/educate.png" alt="" style="max-width: 60px;">
       </span>
       <h2 class="text-center mb-5">Education</h2>
-      <Accordion title="國立中正大學(2021~2024)" :content="MyCollegeDeg" id="CCU"></Accordion>
-      <Accordion title="國立屏東高級中學(2018~2020)" :content="MyHighschoolDeg" id="PTHS"></Accordion>
+      <Accordion title="國立中正大學(2020~2024)" :content="MyCollegeDeg" id="CCU"></Accordion>
+      <Accordion title="國立屏東高級中學(2017~2020)" :content="MyHighschoolDeg" id="PTHS"></Accordion>
     </div>
 
     <!-- Experience -->
