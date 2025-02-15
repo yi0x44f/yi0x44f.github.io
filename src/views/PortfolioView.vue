@@ -4,8 +4,7 @@ import Footer from '@/components/Footer.vue';
 
 import clubWebsite from '@/assets/club-website.png';
 import mybooklist from '@/assets/mybooklist.png';
-import laravel from '@/assets/laravel.png';
-import educate from '@/assets/laravel.png';
+import laravel from '@/assets/laravel-yt.png';
 
 </script>
 
@@ -27,8 +26,8 @@ import educate from '@/assets/laravel.png';
         <PortfolioCard :imgSrc="mybooklist" title="書籍清單" content=
             "使用Vue串接Google Sheet的練習。" 
             href="https://yi0x44f.me/BookList" github="https://github.com/yi0x44f/BookList"></PortfolioCard>
-        <PortfolioCard :imgSrc="laravel" title="帳號註冊系統" content=
-            "使用Laravel+inertia+Vue，創建可以在網站上註冊帳號的練習。" 
+        <PortfolioCard :imgSrc="laravel" title="帳號註冊系統/YouTube Downloader" content=
+            "使用Laravel+inertia+Vue，可以在網站上註冊帳號，並使用YT影片下載的服務。" 
             href="https://103-102-46-72.cloud-xip.com/" github="https://github.com/yi0x44f/laravel_inertia_vue_practice"></PortfolioCard>
         </div>
     </div>
