@@ -5,7 +5,7 @@
   const MyCollegeDeg = ['資訊工程學系 學士','金融科技學程 修畢'];
   const MyHighschoolDeg = ['普通科 自然組 畢業'];
   const MyClub = ['校園網路策進會 副會長','校園網路策進會 活動部長','鋼琴社 社長', '喜劇社 副社長'];
-  const MyJob = ['課外活動組 靜態網頁撰寫','資訊處 宿網網管'];
+  const MyJob = ['課外活動組 靜態網頁開發','資訊處 宿網網管'];
   const MyCompetition = ['2023 全國大專院校智慧創新暨跨領域整合創新競賽 數位永續科技組 值得注目獎 (決賽入圍)', '110學年度 中正大學校內程式競賽 佳作']
 
   const MyFrontEndSkills = [

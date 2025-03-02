@@ -21,7 +21,7 @@ import laravel from '@/assets/laravel-yt.png';
     <div class="d-md-flex p-5" id="portfolio-menu">
         <div class="my-auto row justify-content-start">
         <PortfolioCard :imgSrc="clubWebsite" title="課外活動組 社團網頁" content=
-            "Covid-19，該年度學校的社團博覽會無實體舉行，故架設靜態網頁，供新生參閱。" 
+            "因Covid-19，該年度學校的社團博覽會無實體舉行，故架設靜態網頁，供新生參閱。" 
             href="https://www2.cs.ccu.edu.tw/~cyh109u/"></PortfolioCard>
         <PortfolioCard :imgSrc="mybooklist" title="書籍清單" content=
             "使用Vue串接Google Sheet的練習。" 
