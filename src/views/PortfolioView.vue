@@ -28,7 +28,9 @@ import laravel from '@/assets/laravel-yt.png';
             href="https://yi0x44f.me/BookList" github="https://github.com/yi0x44f/BookList"></PortfolioCard>
         <PortfolioCard :imgSrc="laravel" title="帳號註冊系統/YouTube Downloader" content=
             "使用Laravel+inertia+Vue，可以在網站上註冊帳號，並使用YT影片下載的服務。" 
-            href="https://103-102-46-72.cloud-xip.com/" github="https://github.com/yi0x44f/laravel_inertia_vue_practice"></PortfolioCard>
+            href="https://103-102-46-72.cloud-xip.com/" linkText="(已下架)" github="https://github.com/yi0x44f/laravel_inertia_vue_practice"></PortfolioCard>
+        <PortfolioCard  title="Flask-Vue-JWT登入系統" linkText="(未上線)" github="https://github.com/yi0x44f/Vue-Flask-PostgreSQL" content=
+            "實作JWT登入系統。"></PortfolioCard>
         </div>
     </div>
 

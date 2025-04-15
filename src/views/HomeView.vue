@@ -19,7 +19,9 @@
   const MyProgrammingSkills = [
     {skill: 'php', style: 'text-bg-warning'},
     {skill: 'Laravel', style: 'text-bg-danger'},
-    {skill: 'MySQL', style: 'text-bg-success'}
+    {skill: 'PostgreSQL', style: 'text-bg-success'},
+    {skill: 'Python', style: 'text-bg-info'},
+    {skill: 'Flask', style: 'text-bg-info'},
   ];
   const MyLanguageSkills = [
     {skill: 'English', style: 'text-bg-warning'},
@@ -176,7 +178,17 @@
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">能使用 <span class="badge text-bg-danger">Laravel</span> 開發全端Web app。</li>
-          <li class="list-group-item">了解 <span class="badge text-bg-success">MySQL</span> 指令 </li>
+          <li class="list-group-item">實作 <span class="badge text-bg-success">PostgreSQL</span> 於後端 </li>
+          <li class="list-group-item">能使用 <span class="badge text-bg-info">Flask</span>構出MVC框架的小型專案  </li>
+        </ul>
+      </div>
+
+      <div class="card my-5 p-2">
+        <div class="card-body">
+          <h4 class="card-title">CI/CD</h4>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">能使用Github Actions 自動部屬 Github Pages</li>
         </ul>
       </div>
 

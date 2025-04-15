@@ -16,6 +16,10 @@ const props = defineProps({
     title: String,
     content: String,
     href: String,
+    linkText:{
+      type: String,
+      default: "查看作品"
+    },
     github: String,
 });
 
@@ -34,7 +38,7 @@ const props = defineProps({
                     <hr>
                     <p class="card-text mt-auto py-2">{{ content }}</p>
                     <div class="mt-auto d-flex justify-content-center" >
-                        <a :href="href" class="btn btn-primary fw-semibold mx-1" target="_blank">查看作品</a>
+                        <a :href="href" class="btn btn-primary fw-semibold mx-1" target="_blank">{{ linkText }}</a>
                         <div class="align-items-center justify-content-center d-flex">
                           <!-- Place this tag where you want the button to render. -->
                           <a v-if="github" class="github-button mx-1" :href="github" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Follow @buttons on GitHub">Git repo</a>
