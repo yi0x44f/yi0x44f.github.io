@@ -37,11 +37,13 @@ const props = defineProps({
                     <h5 class="card-title fw-bold text-center mt-3">{{ title }}</h5>
                     <hr>
                     <p class="card-text mt-auto py-2">{{ content }}</p>
-                    <div class="mt-auto d-flex justify-content-center" >
-                        <a :href="href" class="btn btn-primary fw-semibold mx-1" target="_blank">{{ linkText }}</a>
-                        <div class="align-items-center justify-content-center d-flex">
+                    <div class="mt-auto d-flex justify-content-center  align-items-center " >
+                        <div>
+                          <a :href="href" class="btn btn-primary fw-semibold mx-1" target="_blank">{{ linkText }}</a>
+                        </div>
+                        <div class="">
                           <!-- Place this tag where you want the button to render. -->
-                          <a v-if="github" class="github-button mx-1" :href="github" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Follow @buttons on GitHub">Git repo</a>
+                          <a v-if="github" class="github-button py-2" :href="github" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Follow @buttons on GitHub">Git repo</a>
                         </div>
                     </div>
                 </div>

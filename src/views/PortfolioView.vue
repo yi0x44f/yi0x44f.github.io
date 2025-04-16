@@ -30,7 +30,7 @@ import laravel from '@/assets/laravel-yt.png';
             "使用Laravel+inertia+Vue，可以在網站上註冊帳號，並使用YT影片下載的服務。" 
             href="https://103-102-46-72.cloud-xip.com/" linkText="(已下架)" github="https://github.com/yi0x44f/laravel_inertia_vue_practice"></PortfolioCard>
         <PortfolioCard  title="Flask-Vue-JWT登入系統" linkText="(未上線)" github="https://github.com/yi0x44f/Vue-Flask-PostgreSQL" content=
-            "實作JWT登入系統。"></PortfolioCard>
+            "使用前後端分離，實作JWT登入系統。"></PortfolioCard>
         </div>
     </div>
 

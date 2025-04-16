@@ -12,6 +12,7 @@
     {skill: 'HTML', style: 'text-bg-secondary'},
     {skill: 'CSS', style: 'text-bg-primary'},
     {skill: 'Javascript', style: 'text-bg-warning'},
+    {skill: 'TypeScript', style: 'text-bg-primary'},
     {skill: 'Vue3', style: 'text-bg-success'},
     {skill: 'Bootstrap', style: 'text-bg-primary'},
     {skill: 'Tailwind', style: 'text-bg-primary'}
