@@ -4,7 +4,7 @@ import Footer from '@/components/Footer.vue';
 
 import clubWebsite from '@/assets/club-website.png';
 import mybooklist from '@/assets/mybooklist.png';
-import laravel from '@/assets/laravel-yt.png';
+import ytDlpGUI from '@/assets/yt-dlp_GUI.png';
 
 </script>
 
@@ -26,12 +26,15 @@ import laravel from '@/assets/laravel-yt.png';
         <PortfolioCard :imgSrc="mybooklist" title="書籍清單" content=
             "使用Vue串接Google Sheet的練習。" 
             href="https://yi0x44f.me/BookList" github="https://github.com/yi0x44f/BookList"></PortfolioCard>
-        <PortfolioCard :imgSrc="laravel" title="帳號註冊系統/YouTube Downloader" content=
-            "使用Laravel+inertia+Vue，可以在網站上註冊帳號，並使用YT影片下載的服務。" 
-            href="https://103-102-46-72.cloud-xip.com/" linkText="(已下架)" github="https://github.com/yi0x44f/laravel_inertia_vue_practice"></PortfolioCard>
-        <PortfolioCard  title="Flask-Vue-JWT登入系統" linkText="(未上線)" github="https://github.com/yi0x44f/Vue-Flask-PostgreSQL" content=
+        <PortfolioCard imgSrc="" title="帳號註冊系統" content=
+            "使用Laravel+inertia+Vue，可以在網站上註冊帳號。" 
+            href="#" linkText="(已下架)" github="https://github.com/yi0x44f/laravel_inertia_vue_practice"></PortfolioCard>
+        <PortfolioCard imgSrc="" title="Flask-Vue-JWT登入系統" linkText="(未上線)" github="https://github.com/yi0x44f/Vue-Flask-PostgreSQL" content=
             "使用前後端分離，實作JWT登入系統。"></PortfolioCard>
+        <PortfolioCard :imgSrc="ytDlpGUI" title="yt-dlp_GUI" linkText="未上線" github="https://github.com/yi0x44f/yt-dlp_GUI"
+            content="使用Laravel+inertia+Vue，用Docker容器化yt-dlp_GUI的Web Server，並用nginx反向代理。"></PortfolioCard>
         </div>
+
     </div>
 
     <Footer></Footer>

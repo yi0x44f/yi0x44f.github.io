@@ -24,6 +24,10 @@
     {skill: 'Python', style: 'text-bg-info'},
     {skill: 'Flask', style: 'text-bg-info'},
   ];
+  const MyDevOpsSkills = [
+    {skill: 'Github Actions', style: 'text-bg-warning'},
+    {skill: 'Docker', style: 'text-bg-info'},
+  ]; 
   const MyLanguageSkills = [
     {skill: 'English', style: 'text-bg-warning'},
     {skill: '中文', style:'text-bg-primary'},
@@ -187,9 +191,13 @@
       <div class="card my-5 p-2">
         <div class="card-body">
           <h4 class="card-title">CI/CD</h4>
+          <p class="card-text">
+            <span class="badge me-1" :class="skill.style"  v-for="(skill, idx) in MyDevOpsSkills" :key="idx">{{ skill.skill }}</span>
+          </p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">能使用Github Actions 自動部屬 Github Pages</li>
+          <li class="list-group-item">能使用 Github Actions 自動部屬 Github Pages</li>
+          <li class="list-group-item">能使用 Docker 部屬 Web App</li>
         </ul>
       </div>
 
