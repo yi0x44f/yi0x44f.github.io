@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: Yi 的部落格
+subtitle: '寫給未來失智的自己。'
 description: ''
-keywords:
-author: John Doe
-language: en
+keywords: Linux, 軟體
+author: yi0x44f
+language: zh-tw
 timezone: ''
 
 # URL
@@ -101,4 +101,4 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
