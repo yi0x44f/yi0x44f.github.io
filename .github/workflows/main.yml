@@ -32,7 +32,6 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Deploy with Hexo
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-        run: npx hexo generate -d
+        run: |
+          sed -i 's|repo: https://github.com/yi0x44f/myBlog.git|repo: https://github-actions:${{ secrets.GITHUB_TOKEN }}@github.com/yi0x44f/myBlog.git|g' _config.yml
+          npx hexo generate -d
