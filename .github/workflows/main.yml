@@ -34,4 +34,5 @@ jobs:
       - name: Deploy with Hexo
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: npx hexo generate -d
