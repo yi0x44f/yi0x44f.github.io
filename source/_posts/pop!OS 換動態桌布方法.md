@@ -1,5 +1,5 @@
 ---
-title: pop!OS 換動態桌布方法 123
+title: pop!OS 換動態桌布方法
 date: 2026-02-19 03:09:15
 tags: pop!OS
 ---
